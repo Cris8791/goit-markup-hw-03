@@ -12,6 +12,10 @@ body {
   font-family: "Roboto", Arial, sans-serif;
   color: var(--heading-color);
 }
+.container {
+  display: flex;
+  flex-direction: column;
+}
 
 .header-container {
   display: flex;
@@ -26,9 +30,9 @@ body {
   width: 1600px;
   height: 80px;
 
-  padding-left: 215px;
-  max-width: 1600px;
-  margin: 0 auto;
+  margin-left: 215px;
+  max-width: 1150px;
+ 
 }
 .container-1 {
   display: flex;
@@ -48,6 +52,8 @@ body {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  
+  margin: 0;
 }
 
 .contact {
@@ -55,8 +61,7 @@ body {
 }
 .email-address,
 .phone-number {
-  color: var(--text-color);
-  margin: 0;
+    margin: 0;
 }
 
 .first-section {
@@ -66,7 +71,7 @@ body {
   align-items: center;
   width: 1600px;
   height: 600px;
-  padding: 120px 0;
+ ;
 }
 .hero-heading {
   display: flex;
@@ -74,6 +79,8 @@ body {
   text-align: center;
   justify-content: center;
   align-items: center;
+  width: 696px;
+  height: 120px;
 }
 
 .hero-heading span {
@@ -99,6 +106,7 @@ body {
   padding: 64px 0;
   top: 774px;
   padding-left: 215px;
+  margin-top: 30px;
 }
 .menu-item {
   margin-bottom: 16px;
@@ -130,7 +138,9 @@ body {
   flex-direction: column;
   width: 1600px;
   height: 648px;
-  padding: 64px 0;
+  margin-top: 150px;
+  background: #F5F4FA;
+  ;
 }
 .second-title-2 {
   text-align: center;
@@ -174,7 +184,7 @@ body {
   flex-direction: column;
   justify-content: flex-start;
   align-items: baseline;
-  padding: 64px 0;
+  padding-top: 64px;
   width: 1600px;
   height: 251px;
 }
@@ -236,12 +246,19 @@ a :link,
 }
 
 .contact span:first-child {
-  color: #2196f3;
+  color: var(--text-color);
+}
+.contact 
+
+ 
+.contact span:first-child:active, 
+.contact span:first-child:hover,
+.contact span:first-child:focus {
+  color: var(--link-color);
 }
 
 .global-header p {
-  color: var(--link-color);
-  text-decoration: none;
+    text-decoration: none;
 }
 
 .first-section {
@@ -253,7 +270,7 @@ a :link,
 
   font-size: 44px;
   font-weight: 900;
-  line-height: 2em;
+  line-height: 1.2em;
   letter-spacing: 0.06em;
   text-align: center;
 }
@@ -351,6 +368,9 @@ footer {
 .portofolio-content {
   display: flex;
   flex-direction: column;
+  width: 1170px;
+  height: 1360px;
+  margin-left: 215px;
 }
 .portofolio-sections li {
   list-style: none;
@@ -383,7 +403,9 @@ footer {
   height: 38px;
   border-radius: 4px;
   justify-content: space-between;
-  padding-left: 542px;
+  margin-top: 65px;
+  margin-bottom: 45px;
+  font-family: var(--heading-color);
 }
 .domains > .domain-title {
   font-size: 18px;
@@ -403,11 +425,16 @@ footer {
   font-style: normal;
   color: var(--text-color);
 }
+.portofolio-1 {
+  display: flex;
+  justify-content: center
+}
 .portofolio-2 {
   display: flex;
-  padding-left: 215px;
+  
   flex-wrap: wrap;
   justify-content: space-between;
+  
 }
 .project {
   width: 294px;
